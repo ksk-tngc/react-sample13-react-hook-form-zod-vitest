@@ -1,0 +1,41 @@
+.container {
+  padding: 3rem 0 2rem;
+}
+
+.required::after {
+  content: '*';
+  color: red;
+  opacity: 0.7;
+  margin-left: 4px;
+}
+
+.helperText {
+  color: var(--pico-muted-color);
+}
+
+.errorMessage {
+  color: var(--pico-del-color);
+}
+
+.buttonArea {
+  margin-top: 3rem;
+}
+
+.requiredDescription {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: var(--pico-muted-color);
+}
+
+.footer {
+  margin-top: 3rem;
+  text-align: center;
+  color: var(--pico-muted-color);
+}
+
+/* ユーティリティ
+-------------------------------------- */
+.textRed {
+  color: red;
+}
