@@ -38,7 +38,7 @@ export const EventRegistrationForm = memo(() => {
       <Header />
 
       <FormProvider {...methods}>
-        <form onSubmit={onSubmit}>
+        <form onSubmit={onSubmit} noValidate>
           {/* 参加者情報 */}
           <AttendeeInfoSection />
 
